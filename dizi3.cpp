@@ -6,7 +6,7 @@ int main()
 	char name[20];
 	
 	printf("Adinizi giriniz: ");
-	scanf("%s",name);
+	gets(name);
 	
 	printf("merhaba %s",name);
 	
